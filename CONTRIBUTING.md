@@ -31,7 +31,20 @@ Guidelines for the description:
 - Start with a capital letter and end with a period.
 - Say what it does and who it is for, not how great it is.
 - Mention the platform when it is not obvious: `(Android, iOS)`, `(macOS)`.
-- Note licensing or status only when it matters: `(archived)`, `(commercial)`.
+
+## Tags
+
+Use only these trailing tags, and only when they matter to a reader deciding whether to use the tool:
+
+| Tag | Meaning |
+|---|---|
+| `(archived)` | The upstream repository is archived. |
+| `(unmaintained)` | No commit or release in two or more years. |
+| `(niche)` | Small community script with limited support. |
+| `(commercial)` | Closed source or paid. |
+| `(requires root)` | Needs root or jailbreak for its main functionality. |
+
+Do not use tags as a substitute for a description. If a tool is unmaintained but still uniquely useful, keep it and add `(unmaintained)` rather than deleting it. Remove entries only when they no longer work at all or have been fully superseded.
 
 ## Submitting
 
