@@ -8,8 +8,8 @@ Where the list is submitted, what is possible today, and the exact text to paste
 |---|---|---|---|---|
 | [Cugu/awesome-forensics](https://github.com/Cugu/awesome-forensics) | Awesome list | Pull request | **Open** — [#154](https://github.com/cugu/awesome-forensics/pull/154) | Added under Related Awesome Lists, alphabetically after Social Engineering |
 | [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | Awesome list | Pull request | **Blocked** | Interactions restricted to collaborators; revisit later |
-| [llmstxt.site](https://llmstxt.site/submit) | llms.txt directory | Web form | **Manual** | Copy-paste text below |
-| [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | llms.txt directory | Web form | **Manual** | Submissions go through the site form, not a PR |
+| [llmstxt.site](https://llmstxt.site/submit) | llms.txt directory | Web form | **Submitted 2026-11-02** | Awaiting listing; submitted under the maintainer's GitHub identity |
+| [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | llms.txt directory | Web form / manual PR | **Open** — [#2286](https://github.com/thedaviddias/llms-txt-hub/pull/2286) | Web form requires GitHub sign-in, so the documented manual-PR path was used |
 | [awesome.re](https://github.com/sindresorhus/awesome) | Awesome index | Pull request | **Blocked until 2026-12-02** | 30-day maturity rule, and PRs are temporarily disabled |
 | GitHub topics | Discovery | Done | **Live** | awesome-list, spyware, stalkerware, forensics, pegasus, privacy, ios, android |
 

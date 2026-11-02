@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading [level=1] [ref=e4]:
+        - link "llms.txt sites directory" [ref=e5] [cursor=pointer]:
+          - /url: /
+      - paragraph [ref=e6]:
+        - text: A list of all llms.txt file locations across the web with stats, derived from the
+        - link "llmstxt.org" [ref=e7] [cursor=pointer]:
+          - /url: https://llmstxt.org
+        - text: standard.
+      - paragraph [ref=e9]: Submit a llms.txt info
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - text: Product Name
+        - textbox "Product Name" [ref=e13]:
+          - /placeholder: Enter your product name
+      - generic [ref=e14]:
+        - text: Website URL
+        - textbox "Website URL" [ref=e15]:
+          - /placeholder: https://example.com
+      - generic [ref=e16]:
+        - text: Your Name
+        - textbox "Your Name" [ref=e17]:
+          - /placeholder: Enter your name
+      - generic [ref=e18]:
+        - text: Email Address
+        - textbox "Email Address" [ref=e19]:
+          - /placeholder: you@example.com
+      - generic [ref=e20]:
+        - text: llms.txt URL
+        - textbox "llms.txt URL" [ref=e21]:
+          - /placeholder: Enter URL for llms.txt file
+      - generic [ref=e22]:
+        - text: llms-full.txt URL
+        - textbox "llms-full.txt URL" [ref=e23]:
+          - /placeholder: Enter URL for llms-full.txt file
+      - generic [ref=e24]:
+        - text: Additional Notes
+        - textbox "Additional Notes" [ref=e25]:
+          - /placeholder: Enter any additional notes for considering the submission
+      - button "Submit LLMs.txt" [ref=e26] [cursor=pointer]
+    - link "Home" [ref=e28] [cursor=pointer]:
+      - /url: /
+  - alert [ref=e34]

@@ -19,6 +19,8 @@ Do **not** record: stars, clones, or raw traffic as impact. They measure attenti
 |---|---|---|---|---|
 | 2026-11-02 | Project | Published | https://github.com/ranjithrajv/awesome-spyware-detection | Initial public release |
 | 2026-11-02 | Cugu/awesome-forensics | Directory | https://github.com/cugu/awesome-forensics/pull/154 | Submitted to Related Awesome Lists |
+| 2026-11-02 | llmstxt.site | Directory | https://llmstxt.site/submit | Submitted via web form; awaiting listing |
+| 2026-11-02 | llms-txt-hub | Directory | https://github.com/thedaviddias/llms-txt-hub/pull/2286 | Submitted via documented manual-PR path |
 
 ## Types
 
