@@ -90,3 +90,13 @@ r/netsec is technical and strict about self-promotion. A bare link to a list may
 - Do not DM at-risk individuals; route through support organizations.
 - Do not claim endorsement by Citizen Lab, Amnesty, or any listed project.
 - Do not argue with removal decisions; ask what would make it acceptable.
+
+## Execution log
+
+| Date | Channel | Outcome |
+|---|---|---|
+| 2026-11-03 | r/OSINT | **Posted** — https://old.reddit.com/r/OSINT/comments/1xm5kd5/ with "Tool" flair |
+| 2026-11-03 | r/privacy | **Skipped** — R3 bans all self-promotion; posting would risk a ban |
+| 2026-11-03 | Hacker News | **Blocked** — no signed-in session in the browser |
+
+r/privacy needs a different approach: a third-party write-up, or contributing the handout to a thread where it answers an existing question. Do not repost the repo there.

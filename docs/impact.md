@@ -21,6 +21,7 @@ Do **not** record: stars, clones, or raw traffic as impact. They measure attenti
 | 2026-11-02 | Cugu/awesome-forensics | Directory | https://github.com/cugu/awesome-forensics/pull/154 | Submitted to Related Awesome Lists |
 | 2026-11-02 | llmstxt.site | Directory | https://llmstxt.site/submit | Submitted via web form; awaiting listing |
 | 2026-11-02 | llms-txt-hub | Directory | https://github.com/thedaviddias/llms-txt-hub/pull/2286 | Submitted via documented manual-PR path |
+| 2026-11-03 | r/OSINT | Community | https://old.reddit.com/r/OSINT/comments/1xm5kd5/spyware_exposure_investigations_tooling/ | Posted with "Tool" flair; live at launch |
 
 ## Types
 
@@ -29,6 +30,7 @@ Do **not** record: stars, clones, or raw traffic as impact. They measure attenti
 - `Directory` — awesome list or index.
 - `Contribution` — translation, correction, or new maintainer.
 - `Press` — reporting that references the list.
+- `Community` — forum, subreddit, or chat post.
 
 ## Review cadence
 
