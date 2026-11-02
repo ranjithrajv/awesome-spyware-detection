@@ -1,0 +1,94 @@
+name: Suggest a resource
+description: Propose a tool, report, dataset, or organization for the list
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Read [CONTRIBUTING.md](https://github.com/ranjithrajv/awesome-spyware-detection/blob/main/CONTRIBUTING.md) first; entries must be relevant, useful, and defensively oriented.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: How the resource should appear in the list.
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Canonical link to the project, report, or organization.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Mobile detection and triage
+        - Forensic acquisition and analysis
+        - DFIR at scale
+        - Stalkerware
+        - Network-level detection
+        - Desktop and endpoint
+        - Reverse engineering and malware analysis
+        - Indicators and threat intelligence
+        - Exposés and investigations
+        - Legal and policy
+        - Organizations and victim support
+        - Research and methodology
+        - Academic research
+        - New section (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: What it does and who it is for, in plain language. No marketing adjectives.
+      placeholder: "Example: Parses iOS backups for known spyware artifacts and writes a JSON report."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: What gap does it fill that existing entries do not?
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: How you verified it
+      description: Last commit or release, license, platform requirements, and whether you ran it.
+      placeholder: "Last release 2026-08; MIT; tested on macOS 15 with an encrypted backup."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Checklist
+      options:
+        - label: The resource is defensive; it does not help build or deploy spyware.
+          required: true
+        - label: The link resolves and points to the canonical source.
+          required: true
+        - label: I am not the maintainer, or I have disclosed that I am.
+          required: true
+        - label: I have read CONTRIBUTING.md.
+          required: true
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation (optional)
+      description: Say so here if you maintain the suggested project.

@@ -1,0 +1,60 @@
+name: Report a broken or unsafe link
+description: A link is dead, hijacked, or points somewhere harmful
+title: "[Link] "
+labels: ["link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do **not** paste victim data or private information. For anything that could put a person at risk, use [private reporting](https://github.com/ranjithrajv/awesome-spyware-detection/security/advisories/new) instead.
+
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      description: The name shown in the list.
+      placeholder: "Example: Mobile Verification Toolkit (MVT)"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL in the list
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Dead (404, domain expired, removed)
+        - Redirects to unrelated or malicious content
+        - Upstream is archived or abandoned
+        - Wrong canonical URL (mirror or fork)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement (optional)
+      placeholder: https://
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: HTTP status, screenshot description, or a link to an archived version.
+      placeholder: "Checked 2026-11-02: returns 404; Wayback snapshot from 2025-06 shows the project moved to ..."
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The link is safe to open publicly (no victim data, no live malware).
+          required: true

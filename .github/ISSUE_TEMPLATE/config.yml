@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security or safety issue privately
+    url: https://github.com/ranjithrajv/awesome-spyware-detection/security/advisories/new
+    about: Use this for anything that could expose a targeted person or an unpatched tool.
+  - name: Read the contribution guidelines
+    url: https://github.com/ranjithrajv/awesome-spyware-detection/blob/main/CONTRIBUTING.md
+    about: Scope, formatting, tags, and review criteria before you open an issue.
+  - name: Download the printable handout
+    url: https://github.com/ranjithrajv/awesome-spyware-detection/blob/main/docs/handout.md
+    about: A one-page version for trainers, helplines, and newsrooms.

@@ -1,4 +1,4 @@
-name: Link check
+name: Lint and link check
 
 on:
   push:
@@ -8,17 +8,28 @@ on:
     - cron: "0 6 * * 1"
 
 jobs:
-  lychee:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify generated index is current
+        run: |
+          node scripts/build-index.mjs
+          git diff --exit-code
+
       - name: Lint awesome list
         run: npx --yes awesome-lint
+
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
           # 403 is tolerated because some publishers (e.g. amnesty.org) block
           # automated clients while serving the page normally to browsers.
-          args: --verbose --no-progress --accept 200,403,429 README.md CONTRIBUTING.md
+          args: --verbose --no-progress --accept 200,403,429 README.md CONTRIBUTING.md SECURITY.md docs/handout.md docs/outreach.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

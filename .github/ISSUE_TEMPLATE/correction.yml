@@ -1,0 +1,54 @@
+name: Report an inaccuracy
+description: An entry is wrong, misleading, or outdated in a way that matters
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for factual corrections: wrong platform, wrong capability, stale maintenance status, or a description that overstates what a tool can prove.
+
+        For safety-sensitive issues, use [private reporting](https://github.com/ranjithrajv/awesome-spyware-detection/security/advisories/new).
+
+  - type: input
+    id: entry
+    attributes:
+      label: Entry or section
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the list currently says
+      description: Quote the text.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Primary source, maintainer statement, or reproducible test.
+      placeholder: "Upstream README, release notes, or a command you ran with its output."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Safety impact (someone could act on wrong information)
+        - Accuracy (misleading but not dangerous)
+        - Maintenance status only
+        - Wording or typos
+    validations:
+      required: true

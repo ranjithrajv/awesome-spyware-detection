@@ -50,8 +50,13 @@ Do not use tags as a substitute for a description. If a tool is unmaintained but
 
 1. Fork the repository and create a branch.
 2. Make your change, keeping the diff focused.
-3. Open a pull request that explains **why** the resource is useful and how you verified it.
-4. If you maintain the linked project, say so.
+3. If you added, removed, or edited an entry, regenerate the machine-readable exports and commit them:
+   ```sh
+   node scripts/build-index.mjs
+   ```
+   This updates `data/index.json` and `llms.txt`; CI fails if they are out of date.
+4. Open a pull request that explains **why** the resource is useful and how you verified it.
+5. If you maintain the linked project, say so.
 
 ## Review criteria
 

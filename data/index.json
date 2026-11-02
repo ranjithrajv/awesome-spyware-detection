@@ -1,0 +1,889 @@
+{
+  "name": "Awesome Spyware Detection",
+  "description": "A curated list of tools, indicators, investigations, and resources for detecting and exposing spyware and stalkerware.",
+  "repository": "https://github.com/ranjithrajv/awesome-spyware-detection",
+  "license": "CC0-1.0",
+  "last_reviewed": "2026-11-02",
+  "count": 118,
+  "tag_legend": {
+    "archived": "Upstream repository is archived.",
+    "unmaintained": "No commit or release in two or more years.",
+    "niche": "Small community script with limited support.",
+    "commercial": "Closed source or paid.",
+    "requires root": "Needs root or jailbreak for its main functionality."
+  },
+  "sections": [
+    {
+      "title": "Mobile detection and triage",
+      "slug": "mobile-detection-and-triage",
+      "items": [
+        {
+          "name": "Mobile Verification Toolkit (MVT)",
+          "url": "https://github.com/mvt-project/mvt",
+          "description": "Amnesty International's forensic toolkit for indicators of compromise on Android and iOS. The de-facto standard.",
+          "tags": []
+        },
+        {
+          "name": "mvt2timesketch",
+          "url": "https://github.com/haxrob/mvt2timesketch",
+          "description": "Converts MVT output into a Timesketch-compatible timeline.",
+          "tags": [
+            "niche"
+          ]
+        },
+        {
+          "name": "PhoneHackScan",
+          "url": "https://github.com/UCYBERS/PhoneHackScan",
+          "description": "Android and iPhone intrusion check with a guided workflow.",
+          "tags": []
+        },
+        {
+          "name": "SpyGuard",
+          "url": "https://github.com/SpyGuard/SpyGuard",
+          "description": "Network-flow monitoring for signs of compromise, built on Suricata and usable as a kiosk.",
+          "tags": []
+        },
+        {
+          "name": "Zero-Breach Toolkit",
+          "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+          "description": "Double-click check for traces of mercenary spyware such as Pegasus, Predator, Graphite, and Candiru.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Forensic acquisition and analysis",
+      "slug": "forensic-acquisition-and-analysis",
+      "items": [
+        {
+          "name": "ALEAPP",
+          "url": "https://github.com/abrignoni/ALEAPP",
+          "description": "Android Logs Events And Protobuf Parser for building timelines from device data.",
+          "tags": []
+        },
+        {
+          "name": "androidqf",
+          "url": "https://github.com/mvt-project/androidqf",
+          "description": "Android Quick Forensics: fast, structured evidence collection from a device without root.",
+          "tags": []
+        },
+        {
+          "name": "iLEAPP",
+          "url": "https://github.com/abrignoni/iLEAPP",
+          "description": "iOS Logs, Events, And Plist Parser for building a timeline from a full file-system or backup.",
+          "tags": []
+        },
+        {
+          "name": "libimobiledevice",
+          "url": "https://github.com/libimobiledevice/libimobiledevice",
+          "description": "Cross-platform library for talking to iOS devices, including the backups MVT analyzes.",
+          "tags": []
+        },
+        {
+          "name": "pymobiledevice3",
+          "url": "https://github.com/doronz88/pymobiledevice3",
+          "description": "Pure-Python iDevice stack for backups, sysdiagnose, crash logs, and on-device service access.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "DFIR at scale",
+      "slug": "dfir-at-scale",
+      "items": [
+        {
+          "name": "Artemis",
+          "url": "https://github.com/puffyCid/artemis",
+          "description": "Cross-platform forensic artifact collector and parser written in Rust.",
+          "tags": []
+        },
+        {
+          "name": "Chainsaw",
+          "url": "https://github.com/WithSecureOpenSource/chainsaw",
+          "description": "Rapid search and hunting through Windows forensic artifacts.",
+          "tags": []
+        },
+        {
+          "name": "Forensic Artifacts",
+          "url": "https://github.com/ForensicArtifacts/artifacts",
+          "description": "Shared repository of digital-forensic artifact definitions.",
+          "tags": []
+        },
+        {
+          "name": "Hayabusa",
+          "url": "https://github.com/Yamato-Security/hayabusa",
+          "description": "Sigma-based threat hunting and fast Windows event-log timelines.",
+          "tags": []
+        },
+        {
+          "name": "IRIS",
+          "url": "https://github.com/dfir-iris/iris-web",
+          "description": "Collaborative incident-response and case-management platform.",
+          "tags": []
+        },
+        {
+          "name": "Plaso",
+          "url": "https://github.com/log2timeline/plaso",
+          "description": "Super-timeline engine that normalizes artifacts from many sources.",
+          "tags": []
+        },
+        {
+          "name": "Timesketch",
+          "url": "https://github.com/google/timesketch",
+          "description": "Collaborative forensic timeline analysis.",
+          "tags": []
+        },
+        {
+          "name": "Velociraptor",
+          "url": "https://github.com/Velocidex/velociraptor",
+          "description": "Endpoint visibility and DFIR collection at fleet scale.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Stalkerware",
+      "slug": "stalkerware",
+      "items": [
+        {
+          "name": "android-stalkerware",
+          "url": "https://github.com/diskurse/android-stalkerware",
+          "description": "Technical write-ups and sample analysis of Android stalkerware families.",
+          "tags": [
+            "unmaintained"
+          ]
+        },
+        {
+          "name": "Coalition Against Stalkerware",
+          "url": "https://stopstalkerware.org/",
+          "description": "Practical guidance, risk assessment, and a directory of support organizations.",
+          "tags": []
+        },
+        {
+          "name": "MVT-PCAPDroid",
+          "url": "https://github.com/BARGHEST-ngo/MVT-PCAPDroid",
+          "description": "Flattens MVT indicators for use with PCAPdroid's DNS and traffic views.",
+          "tags": [
+            "niche"
+          ]
+        },
+        {
+          "name": "spytrap-adb",
+          "url": "https://github.com/spytrap-org/spytrap-adb",
+          "description": "Tests a phone for stalkerware over ADB and USB debugging, no root required.",
+          "tags": []
+        },
+        {
+          "name": "stalkerware-indicators",
+          "url": "https://github.com/AssoEchap/stalkerware-indicators",
+          "description": "Community-maintained indicators for stalkerware apps, including package names and certificates.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Network-level detection",
+      "slug": "network-level-detection",
+      "items": [],
+      "subsections": [
+        {
+          "title": "Traffic capture and analysis",
+          "slug": "traffic-capture-and-analysis",
+          "items": [
+            {
+              "name": "PCAPdroid",
+              "url": "https://github.com/emanuele-f/PCAPdroid",
+              "description": "No-root network monitor, firewall, and PCAP dumper for Android.",
+              "tags": []
+            },
+            {
+              "name": "Suricata",
+              "url": "https://github.com/OISF/suricata",
+              "description": "IDS/IPS engine for signature-based network detection.",
+              "tags": []
+            },
+            {
+              "name": "Wireshark",
+              "url": "https://github.com/wireshark/wireshark",
+              "description": "Packet analysis for inspecting captured traffic.",
+              "tags": []
+            },
+            {
+              "name": "Zeek",
+              "url": "https://github.com/zeek/zeek",
+              "description": "Network security monitor that produces high-level connection and protocol logs.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "DNS filtering and tracker blocking",
+          "slug": "dns-filtering-and-tracker-blocking",
+          "items": [
+            {
+              "name": "AdGuard Home",
+              "url": "https://github.com/AdguardTeam/AdGuardHome",
+              "description": "Network-wide DNS filtering with per-client query logging.",
+              "tags": []
+            },
+            {
+              "name": "Exodus Privacy",
+              "url": "https://github.com/Exodus-Privacy/exodus",
+              "description": "Platform for auditing trackers bundled in Android applications.",
+              "tags": []
+            },
+            {
+              "name": "Pi-hole",
+              "url": "https://github.com/pi-hole/pi-hole",
+              "description": "DNS sinkhole for blocking known command-and-control and telemetry domains.",
+              "tags": []
+            },
+            {
+              "name": "RethinkDNS",
+              "url": "https://github.com/celzero/rethink-app",
+              "description": "DNS-over-HTTPS, DNS-over-Tor, WireGuard proxying, firewall, and connection tracking on Android.",
+              "tags": []
+            },
+            {
+              "name": "TrackerControl",
+              "url": "https://github.com/TrackerControl/tracker-control-android",
+              "description": "Monitors and blocks trackers and ads per app.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "Cell-site and IMSI detection",
+          "slug": "cell-site-and-imsi-detection",
+          "items": [
+            {
+              "name": "Android IMSI-Catcher Detector",
+              "url": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector",
+              "description": "Detects IMSI catchers, StingRays, and silent SMS on Android.",
+              "tags": []
+            },
+            {
+              "name": "Rayhunter",
+              "url": "https://github.com/EFForg/rayhunter",
+              "description": "Low-cost cell-site-simulator detection built on a mobile hotspot.",
+              "tags": []
+            },
+            {
+              "name": "SnoopSnitch",
+              "url": "https://github.com/srlabs/snoopsnitch",
+              "description": "Baseband analysis for IMSI catchers and suspicious network behavior.",
+              "tags": [
+                "unmaintained",
+                "qualcomm"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Desktop and endpoint",
+      "slug": "desktop-and-endpoint",
+      "items": [
+        {
+          "name": "BlockBlock",
+          "url": "https://github.com/objective-see/BlockBlock",
+          "description": "Monitors persistence locations on macOS and alerts when something installs itself.",
+          "tags": []
+        },
+        {
+          "name": "ClamAV",
+          "url": "https://github.com/Cisco-Talos/clamav",
+          "description": "Open-source antivirus engine, useful for scanning acquired files and mail.",
+          "tags": []
+        },
+        {
+          "name": "DoNotDisturb",
+          "url": "https://github.com/objective-see/DoNotDisturb",
+          "description": "Detects physical-access tampering with a Mac.",
+          "tags": []
+        },
+        {
+          "name": "KnockKnock",
+          "url": "https://github.com/objective-see/KnockKnock",
+          "description": "Enumerates persistently installed software on macOS, AutoRuns-style.",
+          "tags": []
+        },
+        {
+          "name": "LuLu",
+          "url": "https://github.com/objective-see/LuLu",
+          "description": "Free, open-source macOS firewall with per-process outbound visibility.",
+          "tags": []
+        },
+        {
+          "name": "Lynis",
+          "url": "https://github.com/CISOfy/lynis",
+          "description": "Security auditing tool for Unix-like systems, including persistence and configuration checks.",
+          "tags": []
+        },
+        {
+          "name": "osquery",
+          "url": "https://github.com/osquery/osquery",
+          "description": "SQL-powered endpoint instrumentation for hunting suspicious processes, launch items, and network state.",
+          "tags": []
+        },
+        {
+          "name": "OverSight",
+          "url": "https://github.com/objective-see/OverSight",
+          "description": "Alerts when the Mac microphone or camera is activated.",
+          "tags": []
+        },
+        {
+          "name": "privacy.sexy",
+          "url": "https://github.com/undergroundwires/privacy.sexy",
+          "description": "Script generator that enforces privacy and hardening baselines on Windows, macOS, and Linux.",
+          "tags": []
+        },
+        {
+          "name": "ReiKey",
+          "url": "https://github.com/objective-see/ReiKey",
+          "description": "Detects persistent keyboard event taps used by keyloggers.",
+          "tags": [
+            "unmaintained"
+          ]
+        },
+        {
+          "name": "sentinel",
+          "url": "https://github.com/jamixm4-crypto/sentinel",
+          "description": "Offline, read-only scanner for keyloggers, stalkerware, RATs, and monitoring agents.",
+          "tags": []
+        },
+        {
+          "name": "sysmon-config",
+          "url": "https://github.com/SwiftOnSecurity/sysmon-config",
+          "description": "High-quality Sysmon configuration template for Windows event tracing.",
+          "tags": []
+        },
+        {
+          "name": "TaskExplorer",
+          "url": "https://github.com/objective-see/TaskExplorer",
+          "description": "Explores running processes, signatures, and loaded libraries on macOS.",
+          "tags": []
+        },
+        {
+          "name": "WindowsSpyBlocker",
+          "url": "https://github.com/crazy-max/WindowsSpyBlocker",
+          "description": "Blocks Windows telemetry and spying endpoints.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Reverse engineering and malware analysis",
+      "slug": "reverse-engineering-and-malware-analysis",
+      "items": [],
+      "subsections": [
+        {
+          "title": "Android app analysis",
+          "slug": "android-app-analysis",
+          "items": [
+            {
+              "name": "androguard",
+              "url": "https://github.com/androguard/androguard",
+              "description": "Python library for reverse engineering and analyzing Android applications.",
+              "tags": []
+            },
+            {
+              "name": "APKiD",
+              "url": "https://github.com/rednaga/APKiD",
+              "description": "Identifies packers, protectors, and obfuscators in Android apps.",
+              "tags": []
+            },
+            {
+              "name": "Apktool",
+              "url": "https://github.com/iBotPeaches/Apktool",
+              "description": "Reverse engineering of Android APK files.",
+              "tags": []
+            },
+            {
+              "name": "diffuse",
+              "url": "https://github.com/JakeWharton/diffuse",
+              "description": "Diffs two APK or AAB files, ideal for spotting what changed in a spyware update.",
+              "tags": []
+            },
+            {
+              "name": "jadx",
+              "url": "https://github.com/skylot/jadx",
+              "description": "Dex-to-Java decompiler.",
+              "tags": []
+            },
+            {
+              "name": "Quark-Engine",
+              "url": "https://github.com/ev-flow/quark-engine",
+              "description": "Android malware scoring engine based on behavioral patterns.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "iOS app analysis",
+          "slug": "ios-app-analysis",
+          "items": [
+            {
+              "name": "frida-ios-dump",
+              "url": "https://github.com/AloneMonkey/frida-ios-dump",
+              "description": "Pulls decrypted IPAs from a jailbroken device for analysis.",
+              "tags": []
+            },
+            {
+              "name": "Grapefruit",
+              "url": "https://github.com/ChiChou/grapefruit",
+              "description": "Open-source iOS and Android security testing suite, formerly Passionfruit.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "Runtime instrumentation",
+          "slug": "runtime-instrumentation",
+          "items": [
+            {
+              "name": "Frida",
+              "url": "https://github.com/frida/frida",
+              "description": "Dynamic instrumentation toolkit for runtime inspection on Android and iOS.",
+              "tags": []
+            },
+            {
+              "name": "House",
+              "url": "https://github.com/nccgroup/house",
+              "description": "Runtime mobile analysis toolkit with a web GUI.",
+              "tags": [
+                "unmaintained"
+              ]
+            },
+            {
+              "name": "Medusa",
+              "url": "https://github.com/Ch0pin/medusa",
+              "description": "Modular mobile application analysis framework.",
+              "tags": []
+            },
+            {
+              "name": "MobSF",
+              "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+              "description": "Automated static and dynamic analysis for Android, iOS, and Windows apps.",
+              "tags": []
+            },
+            {
+              "name": "objection",
+              "url": "https://github.com/sensepost/objection",
+              "description": "Runtime mobile exploration built on Frida, with scripted checks for common weaknesses.",
+              "tags": []
+            },
+            {
+              "name": "RMS",
+              "url": "https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security",
+              "description": "Web interface for manipulating Android and iOS apps at runtime.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "Native and binary analysis",
+          "slug": "native-and-binary-analysis",
+          "items": [
+            {
+              "name": "capa",
+              "url": "https://github.com/mandiant/capa",
+              "description": "Identifies capabilities in executables, including spyware loaders and droppers.",
+              "tags": []
+            },
+            {
+              "name": "FLOSS",
+              "url": "https://github.com/mandiant/flare-floss",
+              "description": "Extracts obfuscated strings from malware automatically.",
+              "tags": []
+            },
+            {
+              "name": "Ghidra",
+              "url": "https://github.com/NationalSecurityAgency/ghidra",
+              "description": "Software reverse engineering framework for native components and implants.",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Indicators and threat intelligence",
+      "slug": "indicators-and-threat-intelligence",
+      "items": [],
+      "subsections": [
+        {
+          "title": "Indicator feeds",
+          "slug": "indicator-feeds",
+          "items": [
+            {
+              "name": "abuse.ch",
+              "url": "https://abuse.ch/",
+              "description": "MalwareBazaar, ThreatFox, URLhaus, and Feodo Tracker feeds for fresh infrastructure.",
+              "tags": []
+            },
+            {
+              "name": "Amnesty International investigations",
+              "url": "https://github.com/AmnestyTech/investigations",
+              "description": "Indicators of compromise from Amnesty's cyber investigations, including NSO Group infrastructure.",
+              "tags": []
+            },
+            {
+              "name": "FinSpy Tools",
+              "url": "https://github.com/devio/FinSpy-Tools",
+              "description": "Tooling for analyzing FinSpy and FinFisher components and infrastructure.",
+              "tags": [
+                "unmaintained"
+              ]
+            },
+            {
+              "name": "MVT indicators",
+              "url": "https://github.com/mvt-project/mvt-indicators",
+              "description": "Index and collection of MVT-compatible indicators.",
+              "tags": []
+            },
+            {
+              "name": "Pegasus samples",
+              "url": "https://github.com/9aylas/Pegasus-samples",
+              "description": "Archived Android and iOS samples attributed to Pegasus.",
+              "tags": [
+                "reference dump"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Threat-intelligence platforms",
+          "slug": "threat-intelligence-platforms",
+          "items": [
+            {
+              "name": "IntelOwl",
+              "url": "https://github.com/intelowlproject/IntelOwl",
+              "description": "Enrichment and analysis of indicators at scale.",
+              "tags": []
+            },
+            {
+              "name": "MISP",
+              "url": "https://github.com/MISP/MISP",
+              "description": "Open-source threat intelligence and indicator sharing platform.",
+              "tags": []
+            },
+            {
+              "name": "OpenCTI",
+              "url": "https://github.com/OpenCTI-Platform/opencti",
+              "description": "Knowledge graph for structured threat intelligence.",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "title": "Detection rules",
+          "slug": "detection-rules",
+          "items": [
+            {
+              "name": "Sigma",
+              "url": "https://github.com/SigmaHQ/sigma",
+              "description": "Vendor-agnostic detection rule format and rule repository.",
+              "tags": []
+            },
+            {
+              "name": "YARA",
+              "url": "https://github.com/VirusTotal/yara",
+              "description": "Pattern matching for identifying and classifying malware samples.",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exposés and investigations",
+      "slug": "exposés-and-investigations",
+      "items": [
+        {
+          "name": "Amnesty Security Lab",
+          "url": "https://www.amnesty.org/en/tech/",
+          "description": "Technical investigations and forensic methodology from Amnesty International.",
+          "tags": []
+        },
+        {
+          "name": "BLASTPASS",
+          "url": "https://citizenlab.ca/blastpass-nso-group-iphone-zero-click-zero-day-exploit-captured-in-the-wild/",
+          "description": "Citizen Lab's discovery of a zero-click exploit used to deliver Pegasus.",
+          "tags": []
+        },
+        {
+          "name": "Citizen Lab research",
+          "url": "https://citizenlab.ca/research/",
+          "description": "Ongoing publications on mercenary spyware, zero-days, and civil-society targeting.",
+          "tags": []
+        },
+        {
+          "name": "FORCEDENTRY",
+          "url": "https://citizenlab.ca/research/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/",
+          "description": "Citizen Lab's analysis of NSO's zero-click iMessage exploit.",
+          "tags": []
+        },
+        {
+          "name": "Google Threat Analysis Group",
+          "url": "https://blog.google/threat-analysis-group/",
+          "description": "Disclosures of commercial spyware and exploit chains.",
+          "tags": []
+        },
+        {
+          "name": "Graphite Caught",
+          "url": "https://citizenlab.ca/research/first-forensic-confirmation-of-paragons-ios-mercenary-spyware-finds-journalists-targeted/",
+          "description": "First forensic confirmation of Paragon Solutions' Graphite spyware on journalists' phones.",
+          "tags": []
+        },
+        {
+          "name": "Microsoft Threat Intelligence",
+          "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
+          "description": "Vendor research on spyware infrastructure and campaigns.",
+          "tags": []
+        },
+        {
+          "name": "Operation Triangulation",
+          "url": "https://securelist.com/operation-triangulation/109842/",
+          "description": "Kaspersky's analysis of a long-running iOS implant campaign.",
+          "tags": []
+        },
+        {
+          "name": "The Pegasus Project",
+          "url": "https://www.occrp.org/en/project/the-pegasus-project",
+          "description": "OCCRP-led consortium investigation into NSO Group's Pegasus and its targets.",
+          "tags": []
+        },
+        {
+          "name": "The Predator Files",
+          "url": "https://www.amnesty.org/en/documents/act10/7245/2023/en/",
+          "description": "Amnesty International and EIC investigation into the Intellexa alliance and Predator spyware.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Legal and policy",
+      "slug": "legal-and-policy",
+      "items": [
+        {
+          "name": "Article 19",
+          "url": "https://www.article19.org/",
+          "description": "Freedom-of-expression advocacy on surveillance and spyware.",
+          "tags": []
+        },
+        {
+          "name": "EFF border searches",
+          "url": "https://www.eff.org/issues/border-searches",
+          "description": "Rights and practical guidance for device searches at borders.",
+          "tags": []
+        },
+        {
+          "name": "EFF spyware",
+          "url": "https://www.eff.org/tags/spyware",
+          "description": "Reporting and analysis on spyware policy and investigations.",
+          "tags": []
+        },
+        {
+          "name": "EU PEGA inquiry briefing",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/761472/IPOL_BRI%282024%29761472_EN.pdf",
+          "description": "European Parliament research briefing on the PEGA inquiry's findings and recommendations.",
+          "tags": []
+        },
+        {
+          "name": "Privacy International spyware",
+          "url": "https://privacyinternational.org/learn/spyware",
+          "description": "Explainer on commercial spyware and the surveillance industry.",
+          "tags": []
+        },
+        {
+          "name": "UN Special Rapporteur on privacy",
+          "url": "https://www.ohchr.org/en/special-procedures/sr-privacy",
+          "description": "UN mandate tracking surveillance, spyware, and the right to privacy.",
+          "tags": []
+        },
+        {
+          "name": "US Treasury Intellexa action",
+          "url": "https://home.treasury.gov/news/press-releases/jy2155",
+          "description": "2024 sanctions against Intellexa Consortium entities over Predator spyware; several individual designations were later lifted.",
+          "tags": []
+        },
+        {
+          "name": "Wassenaar Arrangement",
+          "url": "https://www.wassenaar.org/",
+          "description": "Multilateral export-control regime covering intrusion software and surveillance tools.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Organizations and victim support",
+      "slug": "organizations-and-victim-support",
+      "items": [
+        {
+          "name": "Access Now Digital Security Helpline",
+          "url": "https://www.accessnow.org/help/",
+          "description": "Free, 24/7 incident response and safety planning for civil society.",
+          "tags": []
+        },
+        {
+          "name": "Amnesty Security Lab get help",
+          "url": "https://securitylab.amnesty.org/get-help/",
+          "description": "Contact channel for targeted individuals seeking technical support.",
+          "tags": []
+        },
+        {
+          "name": "Citizen Lab",
+          "url": "https://citizenlab.ca/",
+          "description": "Interdisciplinary research on information controls and spyware.",
+          "tags": []
+        },
+        {
+          "name": "Committee to Protect Journalists",
+          "url": "https://cpj.org/",
+          "description": "Safety resources and advocacy for journalists under digital threat.",
+          "tags": []
+        },
+        {
+          "name": "Digital First Aid Kit",
+          "url": "https://digitalfirstaid.org/",
+          "description": "Guided self-help for digital emergencies, including suspected device compromise.",
+          "tags": []
+        },
+        {
+          "name": "EFF Surveillance Self-Defense",
+          "url": "https://ssd.eff.org/",
+          "description": "Practical threat modeling and device-hardening guides.",
+          "tags": []
+        },
+        {
+          "name": "NNEDV Safety Net",
+          "url": "https://techsafety.org/",
+          "description": "US tech-abuse and stalkerware guidance for survivors and advocates.",
+          "tags": []
+        },
+        {
+          "name": "OCCRP",
+          "url": "https://www.occrp.org/",
+          "description": "Investigative reporting on surveillance and organized crime.",
+          "tags": []
+        },
+        {
+          "name": "Privacy International",
+          "url": "https://www.privacyinternational.org/",
+          "description": "Research and advocacy on the surveillance industry.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Research and methodology",
+      "slug": "research-and-methodology",
+      "items": [
+        {
+          "name": "Exploit archaeology",
+          "url": "https://www.virusbulletin.com/uploads/pdf/conference/vb2022/papers/VB2022-Exploit-archaeology-a-forensic-history-of-in-the-wild-NSO-Group-exploits.pdf",
+          "description": "Conference paper tracing NSO exploit chains and the artifacts they leave behind.",
+          "tags": []
+        },
+        {
+          "name": "Forensic Methodology Report",
+          "url": "https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/",
+          "description": "The methodology behind MVT and modern iOS spyware forensics.",
+          "tags": []
+        },
+        {
+          "name": "MVT documentation",
+          "url": "https://docs.mvt.re/en/latest/",
+          "description": "Reference for indicator formats, forensic workflows, and result interpretation.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Academic research",
+      "slug": "academic-research",
+      "items": [
+        {
+          "name": "A Review of Mobile Surveillanceware",
+          "url": "https://www.mdpi.com/2079-9292/14/14/2763",
+          "description": "2025 review of targeted mobile spyware capabilities, detection, and countermeasures.",
+          "tags": []
+        },
+        {
+          "name": "Current Research, Challenges, and Future Directions in Stalkerware",
+          "url": "https://www.scitepress.org/Papers/2025/133717/133717.pdf",
+          "description": "2025 review of stalkerware research and open problems.",
+          "tags": []
+        },
+        {
+          "name": "Thwart Me If You Can",
+          "url": "https://arxiv.org/abs/2508.02454",
+          "description": "2025 empirical analysis of Android platform armoring against stalkerware.",
+          "tags": []
+        },
+        {
+          "name": "Towards Stalkerware Detection with Precise Warnings",
+          "url": "https://dl.acm.org/doi/10.1145/3485832.3485901",
+          "description": "ACSAC 2021 paper on generating precise stalkerware warnings.",
+          "tags": []
+        },
+        {
+          "name": "arXiv cs.CR",
+          "url": "https://arxiv.org/list/cs.CR/recent",
+          "description": "Recent cryptography and security preprints.",
+          "tags": []
+        },
+        {
+          "name": "NDSS Symposium",
+          "url": "https://www.ndss-symposium.org/",
+          "description": "Network and Distributed System Security Symposium proceedings.",
+          "tags": []
+        },
+        {
+          "name": "USENIX Security",
+          "url": "https://www.usenix.org/conferences/byname/108",
+          "description": "Symposium proceedings covering systems and network security research.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "title": "Related awesome lists",
+      "slug": "related-awesome-lists",
+      "items": [
+        {
+          "name": "android-security-awesome",
+          "url": "https://github.com/ashishb/android-security-awesome",
+          "description": "Android security resources.",
+          "tags": []
+        },
+        {
+          "name": "awesome-cybersecurity-blueteam",
+          "url": "https://github.com/fabacab/awesome-cybersecurity-blueteam",
+          "description": "Defensive security resources.",
+          "tags": []
+        },
+        {
+          "name": "awesome-malware-analysis",
+          "url": "https://github.com/rshipp/awesome-malware-analysis",
+          "description": "Broader malware analysis tooling.",
+          "tags": []
+        },
+        {
+          "name": "awesome-mobile-security",
+          "url": "https://github.com/vaib25vicky/awesome-mobile-security",
+          "description": "Android and iOS security research.",
+          "tags": []
+        },
+        {
+          "name": "awesome-privacy",
+          "url": "https://github.com/pluja/awesome-privacy",
+          "description": "Privacy-respecting services and alternatives.",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}
