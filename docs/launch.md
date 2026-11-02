@@ -95,10 +95,16 @@ r/netsec is technical and strict about self-promotion. A bare link to a list may
 
 | Date | Channel | Outcome |
 |---|---|---|
-| 2026-11-03 | r/OSINT | **Posted** — https://old.reddit.com/r/OSINT/comments/1xm5kd5/ with "Tool" flair |
+| 2026-11-03 | r/OSINT | **Posted, then removed** — https://old.reddit.com/r/OSINT/comments/1xm5kd5/ ; "Tool" flair applied, removal reason not public |
 | 2026-11-03 | r/privacy | **Skipped** — R3 bans all self-promotion; posting would risk a ban |
 | 2026-11-03 | Hacker News | **Blocked by HN** — Show HN temporarily restricted; `/submit` redirected to `/showlim`. No post made. |
 
 r/privacy needs a different approach: a third-party write-up, or contributing the handout to a thread where it answers an existing question. Do not repost the repo there.
 
 HN's `/showlim` notice says Show HNs are temporarily restricted because of submission volume. Do not work around it by reposting the same link as a regular story; wait, contribute normally, and retry later. The submission copy stays ready in this file.
+
+### r/OSINT follow-up
+
+Do not repost. Send modmail once and ask for the reason, offering to fix the post:
+
+> Hi mods — I posted a free, CC0 resource on spyware-detection tooling and it was removed. I had applied the Tool flair and disclosed that I maintain it. Could you tell me which rule it fell under, and whether a revised post would be welcome? Happy to keep it out of the sub if it is not a fit. Thanks.
