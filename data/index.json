@@ -271,10 +271,10 @@
             {
               "name": "SnoopSnitch",
               "url": "https://github.com/srlabs/snoopsnitch",
-              "description": "Baseband analysis for IMSI catchers and suspicious network behavior.",
+              "description": "Baseband analysis for IMSI catchers and suspicious network behavior on Qualcomm devices.",
               "tags": [
                 "unmaintained",
-                "qualcomm"
+                "requires root"
               ]
             }
           ]

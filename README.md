@@ -124,7 +124,7 @@ No tool on this list can prove a device is clean. Read the notes above on readin
 
 - [Android IMSI-Catcher Detector](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) - Detects IMSI catchers, StingRays, and silent SMS on Android.
 - [Rayhunter](https://github.com/EFForg/rayhunter) - Low-cost cell-site-simulator detection built on a mobile hotspot.
-- [SnoopSnitch](https://github.com/srlabs/snoopsnitch) - Baseband analysis for IMSI catchers and suspicious network behavior. (unmaintained, Qualcomm)
+- [SnoopSnitch](https://github.com/srlabs/snoopsnitch) - Baseband analysis for IMSI catchers and suspicious network behavior on Qualcomm devices. (unmaintained, requires root)
 
 ## Desktop and endpoint
 
