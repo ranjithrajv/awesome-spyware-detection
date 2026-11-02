@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this list in research, teaching, or reporting, please cite it as below."
+title: "Awesome Spyware Detection"
+abstract: "A curated, CC0-licensed list of tools, indicators, investigations, and resources for detecting and exposing spyware and stalkerware. Covers mobile detection, forensic acquisition, DFIR at scale, network and endpoint monitoring, reverse engineering, indicator feeds, legal and policy context, and academic research."
+authors:
+  - family-names: "Raj"
+    given-names: "Ranjith"
+    alias: "ranjithrajv"
+    website: "https://github.com/ranjithrajv"
+repository-code: "https://github.com/ranjithrajv/awesome-spyware-detection"
+url: "https://github.com/ranjithrajv/awesome-spyware-detection"
+license: "CC0-1.0"
+type: dataset
+date-released: 2026-11-02
+keywords:
+  - spyware
+  - stalkerware
+  - digital forensics
+  - incident response
+  - mobile security
+  - surveillance
+  - pegasus
+  - privacy

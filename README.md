@@ -262,3 +262,5 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 ---
 
 Licensed under [CC0 1.0 Universal](LICENSE). Last reviewed: 2026-11-02.
+
+**Citing this list:** for research, teaching, or reporting, cite the repository and the date you accessed it. A [CITATION.cff](CITATION.cff) file is provided for reference managers.
