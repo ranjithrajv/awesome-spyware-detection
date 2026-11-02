@@ -15,6 +15,8 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --accept 200,429 README.md CONTRIBUTING.md
+          # 403 is tolerated because some publishers (e.g. amnesty.org) block
+          # automated clients while serving the page normally to browsers.
+          args: --verbose --no-progress --accept 200,403,429 README.md CONTRIBUTING.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
