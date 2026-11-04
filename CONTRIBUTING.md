@@ -43,6 +43,7 @@ Use only these trailing tags, and only when they matter to a reader deciding whe
 | `(niche)` | Small community script with limited support. |
 | `(commercial)` | Closed source or paid. |
 | `(requires root)` | Needs root or jailbreak for its main functionality. |
+| `(beta)` | Pre-1.0 or experimental; interfaces may change. |
 
 Do not use tags as a substitute for a description. If a tool is unmaintained but still uniquely useful, keep it and add `(unmaintained)` rather than deleting it. Remove entries only when they no longer work at all or have been fully superseded.
 

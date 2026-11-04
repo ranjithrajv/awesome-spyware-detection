@@ -3,14 +3,15 @@
   "description": "A curated list of tools, indicators, investigations, and resources for detecting and exposing spyware and stalkerware.",
   "repository": "https://github.com/ranjithrajv/awesome-spyware-detection",
   "license": "CC0-1.0",
-  "last_reviewed": "2026-11-02",
-  "count": 118,
+  "last_reviewed": "2026-11-04",
+  "count": 129,
   "tag_legend": {
     "archived": "Upstream repository is archived.",
     "unmaintained": "No commit or release in two or more years.",
     "niche": "Small community script with limited support.",
     "commercial": "Closed source or paid.",
-    "requires root": "Needs root or jailbreak for its main functionality."
+    "requires root": "Needs root or jailbreak for its main functionality.",
+    "beta": "Pre-1.0 or experimental; interfaces may change."
   },
   "sections": [
     {
@@ -66,6 +67,14 @@
           "url": "https://github.com/mvt-project/androidqf",
           "description": "Android Quick Forensics: fast, structured evidence collection from a device without root.",
           "tags": []
+        },
+        {
+          "name": "Bugbane",
+          "url": "https://github.com/osservatorionessuno/bugbane",
+          "description": "On-device Android forensics toolkit for consensual acquisition and triage.",
+          "tags": [
+            "beta"
+          ]
         },
         {
           "name": "iLEAPP",
@@ -374,6 +383,36 @@
       ]
     },
     {
+      "title": "Hardening and response",
+      "slug": "hardening-and-response",
+      "items": [
+        {
+          "name": "Android Advanced Protection",
+          "url": "https://support.google.com/android/answer/16339980",
+          "description": "Google's single-toggle hardening for at-risk users, including intrusion logging and USB protection.",
+          "tags": []
+        },
+        {
+          "name": "Apple Threat Notifications",
+          "url": "https://support.apple.com/en-us/102174",
+          "description": "Guidance on the alerts Apple sends when it detects a likely mercenary-spyware targeting, and what to do next.",
+          "tags": []
+        },
+        {
+          "name": "GrapheneOS",
+          "url": "https://grapheneos.org/",
+          "description": "Hardened Android distribution focused on privacy and security for high-risk users.",
+          "tags": []
+        },
+        {
+          "name": "iOS Lockdown Mode",
+          "url": "https://support.apple.com/guide/iphone/lockdown-mode-iph2c0651d2e/ios",
+          "description": "Apple's optional extreme hardening mode that reduces the attack surface for high-risk users.",
+          "tags": []
+        }
+      ]
+    },
+    {
       "title": "Reverse engineering and malware analysis",
       "slug": "reverse-engineering-and-malware-analysis",
       "items": [],
@@ -602,6 +641,12 @@
       "slug": "exposés-and-investigations",
       "items": [
         {
+          "name": "AdFection",
+          "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
+          "description": "Citizen Lab's first technical confirmation of zero-click spyware delivered through targeted ads, linked to Candiru and Bindecy.",
+          "tags": []
+        },
+        {
           "name": "Amnesty Security Lab",
           "url": "https://www.amnesty.org/en/tech/",
           "description": "Technical investigations and forensic methodology from Amnesty International.",
@@ -638,15 +683,39 @@
           "tags": []
         },
         {
+          "name": "Inside Pegasus",
+          "url": "https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware",
+          "description": "Amnesty's analysis of NSO's \"White Services\" and customer-specific attack infrastructure.",
+          "tags": []
+        },
+        {
           "name": "Microsoft Threat Intelligence",
           "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
           "description": "Vendor research on spyware infrastructure and campaigns.",
           "tags": []
         },
         {
+          "name": "Morpheus",
+          "url": "https://osservatorionessuno.org/blog/2026/04/morpheus-a-new-spyware-linked-to-ips-intelligence",
+          "description": "Osservatorio Nessuno's analysis of Android spyware disguised as a system update, linked to Italy's IPS Intelligence.",
+          "tags": []
+        },
+        {
           "name": "Operation Triangulation",
           "url": "https://securelist.com/operation-triangulation/109842/",
           "description": "Kaspersky's analysis of a long-running iOS implant campaign.",
+          "tags": []
+        },
+        {
+          "name": "Targeting Democracy",
+          "url": "https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy",
+          "description": "Citizen Lab and SHARE on Pegasus and homegrown Serbian spyware used against pro-democracy figures.",
+          "tags": []
+        },
+        {
+          "name": "The Intellexa leak",
+          "url": "https://securitylab.amnesty.org/latest/2025/12/intellexa-leaks-predator-spyware-operations-exposed",
+          "description": "Amnesty's analysis of leaked Intellexa documents covering Predator's operations, infection vectors, and customers.",
           "tags": []
         },
         {
@@ -674,6 +743,12 @@
           "tags": []
         },
         {
+          "name": "EDRi Spyware Document Pool",
+          "url": "https://edri.org/our-work/spyware-document-pool",
+          "description": "Chronological pool of spyware investigations, legal filings, and EU policy documents.",
+          "tags": []
+        },
+        {
           "name": "EFF border searches",
           "url": "https://www.eff.org/issues/border-searches",
           "description": "Rights and practical guidance for device searches at borders.",
@@ -692,9 +767,9 @@
           "tags": []
         },
         {
-          "name": "Privacy International spyware",
-          "url": "https://privacyinternational.org/learn/spyware",
-          "description": "Explainer on commercial spyware and the surveillance industry.",
+          "name": "Human Rights Watch: Looking the Other Way",
+          "url": "https://www.hrw.org/report/2026/05/12/looking-the-other-way/eu-failure-to-prevent-surveillance-exports-to-rights",
+          "description": "2026 report on EU export-control failures that let surveillance vendors sell to rights-abusing states.",
           "tags": []
         },
         {
@@ -812,9 +887,9 @@
           "tags": []
         },
         {
-          "name": "Current Research, Challenges, and Future Directions in Stalkerware",
-          "url": "https://www.scitepress.org/Papers/2025/133717/133717.pdf",
-          "description": "2025 review of stalkerware research and open problems.",
+          "name": "Surveillance Disguised as Protection",
+          "url": "https://arxiv.org/abs/2504.16087",
+          "description": "2025 comparative analysis of sideloaded and in-store parental-control apps used for surveillance.",
           "tags": []
         },
         {

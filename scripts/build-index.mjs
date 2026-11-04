@@ -97,6 +97,7 @@ const index = {
     niche: "Small community script with limited support.",
     commercial: "Closed source or paid.",
     "requires root": "Needs root or jailbreak for its main functionality.",
+    beta: "Pre-1.0 or experimental; interfaces may change.",
   },
   sections: CONTENT_SECTIONS.map((s) => ({
     title: s.title,

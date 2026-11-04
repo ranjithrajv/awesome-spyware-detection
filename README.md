@@ -6,7 +6,7 @@ Spyware is no longer a niche threat. Mercenary products such as Pegasus, Predato
 
 Detection is probabilistic. A clean scan means "no known indicators found", not "not infected". Treat every entry here as a starting point, not a verdict.
 
-**Tags:** `(archived)` upstream is archived · `(unmaintained)` no commits or releases in 2+ years · `(niche)` small community script · `(commercial)` closed source · `(requires root)` privileged access needed.
+**Tags:** `(archived)` upstream is archived · `(unmaintained)` no commits or releases in 2+ years · `(niche)` small community script · `(commercial)` closed source · `(requires root)` privileged access needed · `(beta)` pre-1.0 or experimental.
 
 **For trainers and helplines:** a print-ready [one-page handout](docs/handout.md). **For tools and agents:** [data/index.json](data/index.json) and [llms.txt](llms.txt).
 
@@ -20,6 +20,7 @@ Detection is probabilistic. A clean scan means "no known indicators found", not 
 - [Stalkerware](#stalkerware)
 - [Network-level detection](#network-level-detection)
 - [Desktop and endpoint](#desktop-and-endpoint)
+- [Hardening and response](#hardening-and-response)
 - [Reverse engineering and malware analysis](#reverse-engineering-and-malware-analysis)
 - [Indicators and threat intelligence](#indicators-and-threat-intelligence)
 - [Exposés and investigations](#exposés-and-investigations)
@@ -80,6 +81,7 @@ No tool on this list can prove a device is clean. Read the notes above on readin
 
 - [ALEAPP](https://github.com/abrignoni/ALEAPP) - Android Logs Events And Protobuf Parser for building timelines from device data.
 - [androidqf](https://github.com/mvt-project/androidqf) - Android Quick Forensics: fast, structured evidence collection from a device without root.
+- [Bugbane](https://github.com/osservatorionessuno/bugbane) - On-device Android forensics toolkit for consensual acquisition and triage. (beta)
 - [iLEAPP](https://github.com/abrignoni/iLEAPP) - iOS Logs, Events, And Plist Parser for building a timeline from a full file-system or backup.
 - [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - Cross-platform library for talking to iOS devices, including the backups MVT analyzes.
 - [pymobiledevice3](https://github.com/doronz88/pymobiledevice3) - Pure-Python iDevice stack for backups, sysdiagnose, crash logs, and on-device service access.
@@ -143,6 +145,13 @@ No tool on this list can prove a device is clean. Read the notes above on readin
 - [TaskExplorer](https://github.com/objective-see/TaskExplorer) - Explores running processes, signatures, and loaded libraries on macOS.
 - [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) - Blocks Windows telemetry and spying endpoints.
 
+## Hardening and response
+
+- [Android Advanced Protection](https://support.google.com/android/answer/16339980) - Google's single-toggle hardening for at-risk users, including intrusion logging and USB protection.
+- [Apple Threat Notifications](https://support.apple.com/en-us/102174) - Guidance on the alerts Apple sends when it detects a likely mercenary-spyware targeting, and what to do next.
+- [GrapheneOS](https://grapheneos.org/) - Hardened Android distribution focused on privacy and security for high-risk users.
+- [iOS Lockdown Mode](https://support.apple.com/guide/iphone/lockdown-mode-iph2c0651d2e/ios) - Apple's optional extreme hardening mode that reduces the attack surface for high-risk users.
+
 ## Reverse engineering and malware analysis
 
 ### Android app analysis
@@ -197,24 +206,30 @@ No tool on this list can prove a device is clean. Read the notes above on readin
 
 ## Exposés and investigations
 
+- [AdFection](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware) - Citizen Lab's first technical confirmation of zero-click spyware delivered through targeted ads, linked to Candiru and Bindecy.
 - [Amnesty Security Lab](https://www.amnesty.org/en/tech/) - Technical investigations and forensic methodology from Amnesty International.
 - [BLASTPASS](https://citizenlab.ca/blastpass-nso-group-iphone-zero-click-zero-day-exploit-captured-in-the-wild/) - Citizen Lab's discovery of a zero-click exploit used to deliver Pegasus.
 - [Citizen Lab research](https://citizenlab.ca/research/) - Ongoing publications on mercenary spyware, zero-days, and civil-society targeting.
 - [FORCEDENTRY](https://citizenlab.ca/research/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/) - Citizen Lab's analysis of NSO's zero-click iMessage exploit.
 - [Google Threat Analysis Group](https://blog.google/threat-analysis-group/) - Disclosures of commercial spyware and exploit chains.
 - [Graphite Caught](https://citizenlab.ca/research/first-forensic-confirmation-of-paragons-ios-mercenary-spyware-finds-journalists-targeted/) - First forensic confirmation of Paragon Solutions' Graphite spyware on journalists' phones.
+- [Inside Pegasus](https://securitylab.amnesty.org/latest/2026/07/inside-pegasus-the-evolution-of-the-worlds-most-notorious-spyware) - Amnesty's analysis of NSO's "White Services" and customer-specific attack infrastructure.
 - [Microsoft Threat Intelligence](https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/) - Vendor research on spyware infrastructure and campaigns.
+- [Morpheus](https://osservatorionessuno.org/blog/2026/04/morpheus-a-new-spyware-linked-to-ips-intelligence) - Osservatorio Nessuno's analysis of Android spyware disguised as a system update, linked to Italy's IPS Intelligence.
 - [Operation Triangulation](https://securelist.com/operation-triangulation/109842/) - Kaspersky's analysis of a long-running iOS implant campaign.
+- [Targeting Democracy](https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy) - Citizen Lab and SHARE on Pegasus and homegrown Serbian spyware used against pro-democracy figures.
+- [The Intellexa leak](https://securitylab.amnesty.org/latest/2025/12/intellexa-leaks-predator-spyware-operations-exposed) - Amnesty's analysis of leaked Intellexa documents covering Predator's operations, infection vectors, and customers.
 - [The Pegasus Project](https://www.occrp.org/en/project/the-pegasus-project) - OCCRP-led consortium investigation into NSO Group's Pegasus and its targets.
 - [The Predator Files](https://www.amnesty.org/en/documents/act10/7245/2023/en/) - Amnesty International and EIC investigation into the Intellexa alliance and Predator spyware.
 
 ## Legal and policy
 
 - [Article 19](https://www.article19.org/) - Freedom-of-expression advocacy on surveillance and spyware.
+- [EDRi Spyware Document Pool](https://edri.org/our-work/spyware-document-pool) - Chronological pool of spyware investigations, legal filings, and EU policy documents.
 - [EFF border searches](https://www.eff.org/issues/border-searches) - Rights and practical guidance for device searches at borders.
 - [EFF spyware](https://www.eff.org/tags/spyware) - Reporting and analysis on spyware policy and investigations.
 - [EU PEGA inquiry briefing](https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/761472/IPOL_BRI%282024%29761472_EN.pdf) - European Parliament research briefing on the PEGA inquiry's findings and recommendations.
-- [Privacy International spyware](https://privacyinternational.org/learn/spyware) - Explainer on commercial spyware and the surveillance industry.
+- [Human Rights Watch: Looking the Other Way](https://www.hrw.org/report/2026/05/12/looking-the-other-way/eu-failure-to-prevent-surveillance-exports-to-rights) - 2026 report on EU export-control failures that let surveillance vendors sell to rights-abusing states.
 - [UN Special Rapporteur on privacy](https://www.ohchr.org/en/special-procedures/sr-privacy) - UN mandate tracking surveillance, spyware, and the right to privacy.
 - [US Treasury Intellexa action](https://home.treasury.gov/news/press-releases/jy2155) - 2024 sanctions against Intellexa Consortium entities over Predator spyware; several individual designations were later lifted.
 - [Wassenaar Arrangement](https://www.wassenaar.org/) - Multilateral export-control regime covering intrusion software and surveillance tools.
@@ -240,7 +255,7 @@ No tool on this list can prove a device is clean. Read the notes above on readin
 ## Academic research
 
 - [A Review of Mobile Surveillanceware](https://www.mdpi.com/2079-9292/14/14/2763) - 2025 review of targeted mobile spyware capabilities, detection, and countermeasures.
-- [Current Research, Challenges, and Future Directions in Stalkerware](https://www.scitepress.org/Papers/2025/133717/133717.pdf) - 2025 review of stalkerware research and open problems.
+- [Surveillance Disguised as Protection](https://arxiv.org/abs/2504.16087) - 2025 comparative analysis of sideloaded and in-store parental-control apps used for surveillance.
 - [Thwart Me If You Can](https://arxiv.org/abs/2508.02454) - 2025 empirical analysis of Android platform armoring against stalkerware.
 - [Towards Stalkerware Detection with Precise Warnings](https://dl.acm.org/doi/10.1145/3485832.3485901) - ACSAC 2021 paper on generating precise stalkerware warnings.
 - [arXiv cs.CR](https://arxiv.org/list/cs.CR/recent) - Recent cryptography and security preprints.
@@ -261,6 +276,6 @@ Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 ---
 
-Licensed under [CC0 1.0 Universal](LICENSE). Last reviewed: 2026-11-02.
+Licensed under [CC0 1.0 Universal](LICENSE). Last reviewed: 2026-11-04.
 
 **Citing this list:** for research, teaching, or reporting, cite the repository and the date you accessed it. A [CITATION.cff](CITATION.cff) file is provided for reference managers.
