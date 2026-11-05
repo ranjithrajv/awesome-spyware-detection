@@ -8,7 +8,7 @@ Detection is probabilistic. A clean scan means "no known indicators found", not 
 
 **Tags:** `(archived)` upstream is archived · `(unmaintained)` no commits or releases in 2+ years · `(niche)` small community script · `(commercial)` closed source · `(requires root)` privileged access needed · `(beta)` pre-1.0 or experimental.
 
-**For trainers and helplines:** a print-ready [one-page handout](docs/handout.md). **For tools and agents:** [data/index.json](data/index.json) and [llms.txt](llms.txt).
+**For trainers and helplines:** a print-ready [one-page handout](docs/handout.md). **For a dated record of documented cases:** [docs/incidents.md](docs/incidents.md). **For tools and agents:** [data/index.json](data/index.json) and [llms.txt](llms.txt).
 
 ## Contents
 
